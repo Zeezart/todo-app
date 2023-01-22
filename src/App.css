@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: Center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(0, 77, 51);
+}
+.todo{
+    text-align: center;
+    place-items: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+.app{
+    background-color: rgb(232, 255, 247);
+    color: rgb(26, 26, 26);
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+}
+.app-name{
+    font-family: 'Pacifico', cursive;
+    /* text-align: center; */
+    color: black
+}
+.date{
+    font-size: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-family: 'Mukta', sans-serif;
+}
+
+.date P{
+    margin: 0;
+}
+.task{
+    padding: 1rem ;
+    margin-right: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgb(4, 180, 122);
+    box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+    border-radius: 3px;
+    box-shadow: 12px 26px 50px 0px rgba(90, 108, 234, 0.07);
+    /* height: 57px;
+    width: 325px; */
+}
+.add-task{
+    padding: 1rem;
+    background-color: rgb(4, 180, 122);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.task-list{
+    list-style: none;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.added-tasks{
+    background-color: white;
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+    font-family: 'Mukta', sans-serif;
+}
+#done{
+    border-radius: 50rem;
+    display: inline;
+}
+
+label{
+    margin: 0 1rem;
+}
+#done:checked + label  {
+    text-decoration: line-through;
+    color: rgb(143, 143, 143);
+}
+
+.delete-button{
+    text-align: right;
+    float: right;
+    border: 1px solid rgb(4, 180, 122);
+    border-radius: 10rem;
+    color: rgb(4, 180, 122);
+    background-color: transparent;
+}
+
+.count-box{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(4, 180, 122);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
